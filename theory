@@ -51,7 +51,14 @@ simple code
 
 
 Virtual DOM:-
-Virtual dom is a duplicate of original dom .it will effect after updating to the virtual DOM.
+Virtual dom is a duplicate of original dom .it will effect after updating to the actual DOM.
+
+React js :
+It is the combination of html and js which is called as jsx (React file extension).
+
+
+
+
 
 
 
