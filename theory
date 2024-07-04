@@ -38,6 +38,20 @@ Makes use of the JavaScript structure known as virtual DOM. Since JavaScript's v
 Can be used with various systems and on both client and server sides is commendable. 
 Components and identify trends make larger apps easier to manage by increasing clarity.
 
+
 Limitations
 Only addresses the app's angle and distance; as a result, additional techniques must be selected if you want a full collection of development tools. 
 Employs inline scripting and JSX, which some programmers might find uncomfortable.
+
+React js features :-
+
+It uses virtual dom
+code reusability
+simple code
+
+
+Virtual DOM:-
+Virtual dom is a duplicate of original dom .it will effect after updating to the virtual DOM.
+
+
+
