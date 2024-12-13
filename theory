@@ -56,6 +56,103 @@ Virtual dom is a duplicate of original dom .it will effect after updating to the
 React js :
 It is the combination of html and js which is called as jsx (React file extension).
 
+React js structure
+step1 :-npx create-react-app folder-structure ---> it is used to create the folder and those folder contain all the files which we require ..
+Example -->index.js (it is the main file)
+app.js -->it is the main file which contain all files even react run from this file (we can create mutiple pages like hello.js,menu.js,form.js and all we should import those file name in app.js as a import Hello from ./hello.js )
+Hello is a function name which we used for function and from means from where we taking that file ..
+
+Step 2: After project folder has been created, go inside the folder using the following command.
+
+cd folder-structure
+
+Step 3: Install the dependencies required for your project (if any) using the following command.
+
+npm i package-name
+
+Step 4: Run the command git-init to initialized the git in the project. This will add .gitignore file.
+
+git init
+
+Step 5: Create a file named Readme.md which will contain all the info of the project.
+
+touch Readme.md
+Step 6: Create a file with extension .env which will contain the sensitive information and credentials of the project.
+
+touch process.env
+Step 7: Create a file named .gitignore so that all the un-necessary files and folders should not uploaded to github.
+
+touch .gitignore
+Step 8: Create folder like components (contains main components) and pages (contains files which combines components to make a page).
+
+mkdir components
+touch Navbar.jsx
+
+Improved Files and Folders Structure:
+For managing the project in more concise way we can create these folder for more manageable code.
+
+Components Folder
+Context Folder
+Hooks Folder
+Services Folder
+Utils Folder
+Assets Folder
+Config Folder
+Styles Folder
+folder2
+Improved Folder Structure
+
+Giving Style for react js content file----------------------------------
+Like css in react js also we have three css types
+1) Inline styling
+2) CSS stylesheets
+3) CSS Modules
+
+example 1 for inline styling css ---------------------------------------------
+Inline Styling
+To style an element with the inline style attribute, the value must be a JavaScript object:
+
+Example:------------------------------------------------------------------------------------------------------------------
+Insert an object with the styling information:
+
+const Header = () => {
+  return (
+    <>
+      <h1 style={{color: "red"}}>Hello Style!</h1>
+      <p>Add a little style!</p>
+    </>
+  );
+}
+
+In this exmaple we are using inline css so for inline css in react js we have to use {{.....}} double curly braces..In Recat js is a camel based so we can write object decalration like
+backgroundColor:red...
+
+
+JavaScript Object
+You can also create an object with styling information, and refer to it in the style attribute:
+
+Example:--------------------------------------------------------------------------------------------------------------
+Create a style object named myStyle:
+
+const Header = () => {
+  const myStyle = {
+    color: "white",
+    backgroundColor: "DodgerBlue",
+    padding: "10px",
+    fontFamily: "Sans-Serif"
+  };
+  return (
+    <>
+      <h1 style={myStyle}>Hello Style!</h1>
+      <p>Add a little style!</p>
+    </>
+  );
+}
+
+
+In this exampe we just javascript object so first we initalisex the object you can use let,var and const and inistilaise the object later use that object refernce in react code ..
+when we created object no need of using {{...}} double curly braces .you can initialise in {...} like this..
+
 
 
 
